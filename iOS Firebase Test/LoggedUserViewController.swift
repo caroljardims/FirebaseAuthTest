@@ -30,7 +30,6 @@ class LoggedUserViewController: UIViewController {
         userPicture.layer.cornerRadius = userPicture.frame.size.width / 2
         userPicture.layer.borderColor = UIColor.white.cgColor
         userPicture.layer.borderWidth = 3
-        
     }
     
     func checkIfUserIsLoggedIn() {

@@ -121,6 +121,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="universe" translatesAutoresizingMaskIntoConstraints="NO" id="F1L-Ja-Kdu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountainlandscape" translatesAutoresizingMaskIntoConstraints="NO" id="QmF-zX-POv">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                 <constraints>
@@ -155,16 +158,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0011166067928768907" green="0.040812166592217314" blue="0.24401256517710423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fZx-fb-Usc" firstAttribute="centerX" secondItem="Drw-9F-Y0x" secondAttribute="centerX" id="1PE-pb-Smr"/>
                             <constraint firstItem="QmF-zX-POv" firstAttribute="leading" secondItem="Drw-9F-Y0x" secondAttribute="leading" id="3Xa-pd-rYM"/>
+                            <constraint firstAttribute="trailing" secondItem="F1L-Ja-Kdu" secondAttribute="trailing" id="BKo-s4-89D"/>
                             <constraint firstItem="FwF-Ia-Ecu" firstAttribute="top" secondItem="3Bm-fc-bVl" secondAttribute="bottom" constant="8" id="Ere-yb-p2u"/>
+                            <constraint firstItem="vnM-Xa-Psa" firstAttribute="top" secondItem="F1L-Ja-Kdu" secondAttribute="bottom" id="X08-pQ-lXw"/>
                             <constraint firstItem="FwF-Ia-Ecu" firstAttribute="leading" secondItem="Drw-9F-Y0x" secondAttribute="leadingMargin" id="Z3z-X1-DG2"/>
+                            <constraint firstItem="F1L-Ja-Kdu" firstAttribute="leading" secondItem="Drw-9F-Y0x" secondAttribute="leading" id="ZNT-9B-eGo"/>
                             <constraint firstItem="AOj-8q-9iJ" firstAttribute="centerX" secondItem="Drw-9F-Y0x" secondAttribute="centerX" id="feX-yP-bIt"/>
                             <constraint firstItem="UYc-U5-wAd" firstAttribute="top" secondItem="3Bm-fc-bVl" secondAttribute="bottom" constant="50" id="gUj-zs-537"/>
                             <constraint firstItem="QmF-zX-POv" firstAttribute="top" secondItem="Drw-9F-Y0x" secondAttribute="top" id="lR6-Kq-Ysu"/>
                             <constraint firstItem="vnM-Xa-Psa" firstAttribute="top" secondItem="AOj-8q-9iJ" secondAttribute="bottom" constant="20" id="q8N-h7-Emc"/>
+                            <constraint firstItem="F1L-Ja-Kdu" firstAttribute="top" secondItem="Drw-9F-Y0x" secondAttribute="top" id="sVK-q0-dy9"/>
                             <constraint firstItem="UYc-U5-wAd" firstAttribute="centerX" secondItem="Drw-9F-Y0x" secondAttribute="centerX" id="tyo-NO-YRK"/>
                             <constraint firstAttribute="trailing" secondItem="QmF-zX-POv" secondAttribute="trailing" id="yJk-Lw-Qkn"/>
                             <constraint firstItem="fZx-fb-Usc" firstAttribute="top" secondItem="UYc-U5-wAd" secondAttribute="bottom" constant="70" id="z7k-VP-Ges"/>
@@ -193,6 +200,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds" translatesAutoresizingMaskIntoConstraints="NO" id="BjM-cx-cer">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountainlandscape" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-HS-0iy">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                 <constraints>
@@ -328,6 +338,7 @@
                         <constraints>
                             <constraint firstItem="f4L-IA-CAi" firstAttribute="centerX" secondItem="Q0Y-Vb-IJs" secondAttribute="centerX" id="3pb-bq-fRu"/>
                             <constraint firstItem="PeN-xo-Xz5" firstAttribute="top" secondItem="TEn-Vb-qtF" secondAttribute="bottom" id="5DO-CM-0u6"/>
+                            <constraint firstItem="XG6-fa-sGT" firstAttribute="top" secondItem="BjM-cx-cer" secondAttribute="bottom" id="5mp-k3-IbM"/>
                             <constraint firstItem="f4L-IA-CAi" firstAttribute="centerY" secondItem="Q0Y-Vb-IJs" secondAttribute="centerY" id="6c4-hd-bZP"/>
                             <constraint firstItem="yPF-d4-hvP" firstAttribute="top" secondItem="Q0Y-Vb-IJs" secondAttribute="top" id="A5D-kP-aQj"/>
                             <constraint firstItem="PeN-xo-Xz5" firstAttribute="leading" secondItem="Q0Y-Vb-IJs" secondAttribute="leadingMargin" id="ADZ-pm-nzr"/>
@@ -338,13 +349,16 @@
                             <constraint firstItem="f4L-IA-CAi" firstAttribute="top" secondItem="4FP-g6-IoM" secondAttribute="bottom" constant="44" id="RcA-ld-jNN"/>
                             <constraint firstItem="yPF-d4-hvP" firstAttribute="leading" secondItem="Q0Y-Vb-IJs" secondAttribute="leading" id="Reg-HA-a66"/>
                             <constraint firstItem="yPF-d4-hvP" firstAttribute="top" secondItem="Q0Y-Vb-IJs" secondAttribute="top" id="TQz-WU-Rbn"/>
+                            <constraint firstItem="BjM-cx-cer" firstAttribute="top" secondItem="Q0Y-Vb-IJs" secondAttribute="top" id="Y4M-Ho-eL6"/>
                             <constraint firstItem="4FP-g6-IoM" firstAttribute="centerX" secondItem="Q0Y-Vb-IJs" secondAttribute="centerX" id="avW-qV-Zf9"/>
+                            <constraint firstItem="BjM-cx-cer" firstAttribute="leading" secondItem="Q0Y-Vb-IJs" secondAttribute="leading" id="bCz-Er-vxI"/>
                             <constraint firstAttribute="trailing" secondItem="yPF-d4-hvP" secondAttribute="trailing" id="d3o-2f-ZhB"/>
                             <constraint firstItem="4hw-5w-7Ce" firstAttribute="top" secondItem="TEn-Vb-qtF" secondAttribute="bottom" constant="8" id="kDk-L2-mqq"/>
                             <constraint firstAttribute="trailing" secondItem="9bi-HS-0iy" secondAttribute="trailing" id="lSR-Bk-YZi"/>
                             <constraint firstItem="9bi-HS-0iy" firstAttribute="top" secondItem="Q0Y-Vb-IJs" secondAttribute="top" id="muY-kJ-WtD"/>
                             <constraint firstItem="yPF-d4-hvP" firstAttribute="leading" secondItem="Q0Y-Vb-IJs" secondAttribute="leading" id="nZL-ti-oXH"/>
                             <constraint firstItem="ghk-PZ-QuC" firstAttribute="top" secondItem="TEn-Vb-qtF" secondAttribute="bottom" constant="50" id="pRn-1R-dM9"/>
+                            <constraint firstAttribute="trailing" secondItem="BjM-cx-cer" secondAttribute="trailing" id="qgD-le-Vwc"/>
                             <constraint firstItem="XG6-fa-sGT" firstAttribute="top" secondItem="YvJ-BE-OSU" secondAttribute="bottom" constant="20" id="rfL-2J-Rzm"/>
                             <constraint firstItem="9bi-HS-0iy" firstAttribute="leading" secondItem="Q0Y-Vb-IJs" secondAttribute="leading" id="wHn-hU-wXd"/>
                         </constraints>
@@ -366,9 +380,11 @@
     </scenes>
     <resources>
         <image name="cameraicon" width="512" height="512"/>
+        <image name="clouds" width="1920" height="1080"/>
         <image name="eyeicon" width="512" height="512"/>
         <image name="mountainlandscape" width="500" height="268"/>
         <image name="profilepicture" width="626" height="626"/>
+        <image name="universe" width="1920" height="1200"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="yW7-gM-uVx"/>
