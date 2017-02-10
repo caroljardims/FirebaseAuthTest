@@ -87,11 +87,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="gUl-Rk-8kc" firstAttribute="top" secondItem="hni-dk-jHW" secondAttribute="bottom" constant="8" id="1cb-wN-Pnx"/>
+                            <constraint firstItem="hni-dk-jHW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="155" id="JBB-Ya-AWX"/>
                             <constraint firstItem="fSm-AV-mjq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dNK-dc-1nB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fSm-AV-mjq" secondAttribute="bottom" constant="20" id="odT-mV-LXu"/>
                             <constraint firstItem="hni-dk-jHW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qC8-dx-gfk"/>
-                            <constraint firstItem="gUl-Rk-8kc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sxU-9c-XgG"/>
-                            <constraint firstItem="gUl-Rk-8kc" firstAttribute="top" secondItem="hni-dk-jHW" secondAttribute="bottom" constant="8" id="vOG-5B-OlY"/>
                             <constraint firstItem="gUl-Rk-8kc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zT0-gK-zgW"/>
                         </constraints>
                     </view>
@@ -319,8 +319,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeN-xo-Xz5">
-                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeN-xo-Xz5">
+                                <rect key="frame" x="16" y="20" width="88" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="5aj-op-iUo"/>
+                                    <constraint firstAttribute="height" constant="52" id="vX9-3u-TOW"/>
+                                </constraints>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="u1G-1j-CV7" kind="show" id="yW7-gM-uVx"/>
@@ -387,6 +391,6 @@
         <image name="universe" width="1920" height="1200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yW7-gM-uVx"/>
+        <segue reference="g9B-dx-q2S"/>
     </inferredMetricsTieBreakers>
 </document>

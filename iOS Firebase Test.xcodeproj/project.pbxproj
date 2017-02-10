@@ -65,6 +65,7 @@
 		CD49F7281E48DF1F0028B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD49F7341E48E3030028B6BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD49F7361E4903FB0028B6BE /* LoggedUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedUserViewController.swift; sourceTree = "<group>"; };
+		CDCF147C1E4CE27900B2D5A8 /* iOS Firebase Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Firebase Test.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,15 +144,16 @@
 		CD49F7051E48DF1F0028B6BE /* iOS Firebase Test */ = {
 			isa = PBXGroup;
 			children = (
+				CDCF147C1E4CE27900B2D5A8 /* iOS Firebase Test.entitlements */,
 				CD49F7061E48DF1F0028B6BE /* AppDelegate.swift */,
 				CD49F7361E4903FB0028B6BE /* LoggedUserViewController.swift */,
+				CD3818FA1E4A524F00F224CB /* SetUserProfileViewController.swift */,
 				CD49F7081E48DF1F0028B6BE /* ViewController.swift */,
 				CD49F70D1E48DF1F0028B6BE /* Assets.xcassets */,
 				CD49F70A1E48DF1F0028B6BE /* Main.storyboard */,
 				CD49F70F1E48DF1F0028B6BE /* LaunchScreen.storyboard */,
 				CD49F7121E48DF1F0028B6BE /* Info.plist */,
 				CD49F7341E48E3030028B6BE /* GoogleService-Info.plist */,
-				CD3818FA1E4A524F00F224CB /* SetUserProfileViewController.swift */,
 			);
 			path = "iOS Firebase Test";
 			sourceTree = "<group>";
@@ -251,8 +253,13 @@
 				TargetAttributes = {
 					CD49F7021E48DF1E0028B6BE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 72TMXRTU9X;
+						DevelopmentTeam = JAHZ753UZ7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					CD49F7161E48DF1F0028B6BE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -615,7 +622,8 @@
 			baseConfigurationReference = 546042D2AD976916F84BDD39 /* Pods-iOS Firebase Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 72TMXRTU9X;
+				CODE_SIGN_ENTITLEMENTS = "iOS Firebase Test/iOS Firebase Test.entitlements";
+				DEVELOPMENT_TEAM = JAHZ753UZ7;
 				INFOPLIST_FILE = "iOS Firebase Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "delivery-much.iOS-Firebase-Test";
@@ -629,7 +637,8 @@
 			baseConfigurationReference = A90784D607899E4B969C0E92 /* Pods-iOS Firebase Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 72TMXRTU9X;
+				CODE_SIGN_ENTITLEMENTS = "iOS Firebase Test/iOS Firebase Test.entitlements";
+				DEVELOPMENT_TEAM = JAHZ753UZ7;
 				INFOPLIST_FILE = "iOS Firebase Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "delivery-much.iOS-Firebase-Test";

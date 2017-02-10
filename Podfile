@@ -22,5 +22,10 @@ target 'iOS Firebase Test' do
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  
 
 end
